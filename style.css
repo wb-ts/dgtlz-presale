@@ -1,0 +1,366 @@
+body#roadmep {
+    background: rgb(0,212,255);
+    background: linear-gradient(238deg, rgba(0,212,255,1) 0%, rgba(73,73,172,1) 100%);
+    padding-bottom:80px;
+}
+main {
+    padding: 0px 250px;
+}
+section {
+    padding: 15px 0px;
+    color: white;
+}
+.roadmephead h1 {
+    font-size: 80px;
+}
+.roadmepdetail p a {
+    color: #18479f;
+    font-size: 25px;
+}
+.roadmepdetail p a:hover {
+    text-decoration:none;
+}
+.roadmepdetail p {
+    font-size: 32px;
+    position: relative;
+}
+.date {
+    text-align: center;
+    padding: 50px;
+}
+.btn-success {
+    color: #fff !important;
+    background-color: #18479f !important;
+    border-color: #18479f !important;
+}
+.btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgb(24 71 159 / 42%) !important;
+}
+
+
+section.roadmepform p {
+    font-size: 20px;
+    text-align: justify;
+}
+.roadmepform .card:hover {
+    box-shadow: 2px 1px 6px 3px #ffffff;
+}
+img.imgluid {
+    height: 20%;
+    /* float: left; */
+    right: 5%;
+    top: 78%;
+    position: absolute;
+}
+section.roadmeptitle {
+    position: relative;
+}
+section.roadmeptitle img.img-fluid {
+    position: absolute;
+    top: 255px;
+    left: 0;
+}
+.roadmepsocial img {
+    height: auto;
+    width: 70px;
+}
+.roadmepsocial p {
+    font-size: 32px;
+}
+.roadmepform .card {
+    background-color: #18479f;
+}
+.roadmepform h2 {
+    text-align: end;
+}
+.roadmepform h6 {
+    font-size: 20px;
+    text-align: end;
+}
+.roadmepform {
+    position: relative;
+}.roadmepdetail1 {
+    position: relative;
+}
+.roadmepdetail1 img.img-fluid {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: auto;
+}
+.roadmepdetail1 p{
+    font-size: 20px;
+}
+.roadmepform img {
+    width: 20%;
+    left: 86%;
+    bottom: 104%;
+    position: absolute;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    main {
+    padding: 0px;
+}
+/*    section {*/
+/*    padding: 30px 0px;*/
+/*    color: white;*/
+/*}*/
+  .roadmephead h1 {
+    font-size: 25px !important;
+}
+img.imgluid {
+    height: 20%;
+    /* float: left; */
+    right: 10%;
+    top: 89%;
+    position: absolute;
+}
+.roadmepform {
+    position: relative;
+}
+.roadmepform img {
+   width: 20%;
+    left: 30%;
+    bottom: 30px;
+}
+section.roadmeptitle img.img-fluid {
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+.roadmepform h6 {
+    font-size: 18px;
+    text-align: end;
+}
+.roadmepform h2 {
+    font-size: 30px;
+}
+.roadmepdetail p {
+    font-size: 20px;
+    
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  main {
+    padding: 0px;
+}
+/*    section {*/
+/*    padding: 30px 0px;*/
+/*    color: white;*/
+/*}*/
+  .roadmephead h1 {
+    font-size: 25px !important;
+}
+img.imgluid {
+    height: 20%;
+    /* float: left; */
+    right: 10%;
+    top: 89%;
+    position: absolute;
+}
+.roadmepform {
+    position: relative;
+}
+.roadmepform img {
+   width: 20%;
+    left: 30%;
+    bottom: 30px;
+}
+section.roadmeptitle img.img-fluid {
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+.roadmepform h6 {
+    font-size: 18px;
+    text-align: end;
+}
+.roadmepform h2 {
+    font-size: 30px;
+}
+.roadmepdetail p {
+    font-size: 20px;
+    
+}
+    
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .animated {
+       max-width: 45%!important;
+        }
+       
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {.animated {
+   
+}
+
+
+/*-----Testimonial-------*/
+
+
+/* ------testimonial  close-------*/
+
+
+
+/* .bg-col {
+    background-color: #0ea2bd;
+} */
+/* .hero-animated .animated {
+    margin-bottom: 60px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+} */
+.banner-row {
+    position: relative;
+}
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+/* .hvr-back-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px #00000000;
+    overflow: hidden;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: color,background-color;
+    transition-property: color,background-color;
+} */
+a.typewrite{
+    color: #0ea2bd !important;
+}
+.button-blue {
+    background: #0ea2bd;
+    border-radius: 40px;
+    padding: 13px 30px; 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: .02em;
+    color: #fff;
+}
+a.button-blue.hvr-back-pulse:hover{
+    background: #48c6e2;
+    color: white;
+}
+/* .wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+} */
+.icon-hand {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    background: url(../image/hand.png) no-repeat;
+    background-size: cover;
+}
+img.animated {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.images {
+    width: 50px;
+    position: absolute;
+    top: 114px;
+    right: 0;
+}
+img.animated {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.hero-animated .btn-get-started {
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: white;
+    background-color: #ff6584;
+}
+.hero-animated h2 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 300;
+    color: #485664;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-animated h2 span {
+    color: #0ea2bd;
+}
+i.fa.fa-play-circle {
+    font-size: 32px;
+    padding: 0px 10px;
+    color: #0ea2bd;
+}
+
+a.btn.d-flex.align-items-center {
+    color: #0ea2bd;
+}
+.banner-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+/* --------process-------- */
+/* section.process {
+    background-color: #485664;
+} */
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .animated {
+       max-width: 45%!important;
+        }
+       
+}
